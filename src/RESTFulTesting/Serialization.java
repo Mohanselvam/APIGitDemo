@@ -17,6 +17,7 @@ public class Serialization {
 		// TODO Auto-generated method stub
 
 		RestAssured.baseURI = "https://rahulshettyacademy.com";
+// Implementing the list interface.
 
 		AddPlace addPlace = new AddPlace();
 		addPlace.setAccuracy(50);

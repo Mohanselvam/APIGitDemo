@@ -20,6 +20,7 @@ public class SumOfValidation {
 			int amount = price * copies;
 			System.out.println(amount);
 			sum = sum + amount;
+// Sum of Amount in courses
 		}
 		System.out.println(sum);
 		int purchase = js.getInt("dashboard.purchaseAmount");

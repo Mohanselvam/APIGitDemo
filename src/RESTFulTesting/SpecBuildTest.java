@@ -22,6 +22,7 @@ public class SpecBuildTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+// Adding the place in API server
 		RestAssured.baseURI = "https://rahulshettyacademy.com";
 
 		AddPlace addPlace = new AddPlace();
