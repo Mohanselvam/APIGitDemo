@@ -28,6 +28,12 @@ public class OAuthTest2 {
 //		driver.findElement(By.cssSelector("input[type='password']")).sendKeys(Keys.ENTER);
 //		Thread.sleep(3000);
 //		String url = driver.getCurrentUrl();
+
+
+/* Removing the code the selenium
+   Adding the Authoriaztion code
+   And adding the token
+*/
 		String partialCode = url.split("code=")[1];
 		String code = partialCode.split("&scope")[0];
 
